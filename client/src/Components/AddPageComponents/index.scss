@@ -1,0 +1,25 @@
+.wree {
+    width: 100%px;
+    margin: 0 auto;
+    height: 762px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    .addin{
+        width: 1150px;
+        margin: 0 auto;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(211, 166, 20);
+    }
+   
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

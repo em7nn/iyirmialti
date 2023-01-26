@@ -1,0 +1,23 @@
+.shopisfun_main {
+    width: 100%;
+    max-width: 100%;
+    background: rgb(23, 80, 212);
+    background: linear-gradient(90deg, rgba(23, 80, 212, 1) 38%, rgba(234, 242, 242, 1) 38%, rgba(250, 250, 250, 1) 100%);
+    .shopisfun{
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        .imig{
+            margin-top: 70px;
+            margin-bottom: -5px;
+            height: auto;
+        }
+        .shopisfun_yazi{
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.bestsellers_main{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    .bestsellers {
+
+    .bestsellers_yazi{
+        width: 1100px;
+        margin: 0 auto;
+         .pe {
+            p {
+                color: #777;
+                font-family: "Roboto", sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1.667;
+
+            }
+        }
+
+        .ikihas {
+            display: flex;
+            flex-direction: row;
+            margin-top: -30px;
+            
+            #pro {
+                margin-left: 5px;
+                border-bottom: 2px solid blue;
+                padding-bottom: 7px;
+
+            }
+        }
+        .ot{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+    }
+    .products {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1150px;
+        margin: 0 auto;
+        text-align: center;
+        
+        .card {
+            padding-bottom: 10px;
+            margin-left: 15px;
+            .butonlar{
+
+                button{
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+}
+}
